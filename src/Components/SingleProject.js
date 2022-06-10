@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import gym from './../asset/gym.png'
 import motodeal from './../asset/motodeal.png'
 import watch from './../asset/watch.png'
@@ -7,7 +8,9 @@ const SingleProject = () => {
                     <div>
                               <h1 className='text-3xl text-center font-bold p-10'>My Projects</h1>
                               <div>
-                              <div class="card w-96 bg-base-100 shadow-xl">
+                              <div class="card w-96 bg-base-100 shadow-xl" data-aos="zoom-out"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
   <figure class="px-10 pt-10">
     <img src={gym} alt="Shoes" class="rounded-xl" />
   </figure>
@@ -17,12 +20,14 @@ const SingleProject = () => {
 On the home page, there was a service section show some services.
 There was a log-in or registration page, you can also register with a google account.</p>
     <div class="card-actions">
-      <button class="btn btn-success">visit </button>
+      <Link to='/gym'><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
 </div>
                               </div>
-                              <div class="card w-96 bg-base-100 shadow-xl">
+                              <div class="card w-96 bg-base-100 shadow-xl" data-aos="zoom-out"
+     data-aos-easing="linear"
+     data-aos-duration="1500" >
   <figure class="px-10 pt-10">
     <img src={motodeal} alt="Shoes" class="rounded-xl" />
   </figure>
@@ -33,11 +38,13 @@ You can deliver or restock products; also you can delete any products from your
 inventory page.
 You can add any products easily from add product page..</p>
     <div class="card-actions">
-      <button class="btn btn-success">visit </button>
+      <Link to='/moto'><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
 </div>
-<div class="card w-96 bg-base-100 shadow-xl">
+<div class="card w-96 bg-base-100 shadow-xl" data-aos="zoom-out"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
   <figure class="px-10 pt-10">
     <img src={watch} alt="Shoes" class="rounded-xl" />
   </figure>
@@ -47,7 +54,7 @@ You can add any products easily from add product page..</p>
 On the home page, there were showing some customer reviews
 There was also a dashboard page you can see there business summary.</p>
     <div class="card-actions">
-      <button class="btn btn-success">visit </button>
+      <Link to="/watch" ><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
 </div>

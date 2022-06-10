@@ -1,50 +1,58 @@
 import React from 'react';
-
+import emailjs from "@emailjs/browser";
 const Contact = () => {
-   // function sendEmail  (e) {
-   //    e.preventDefault()
+   function sendEmail(e) {
+      e.preventDefault();
 
-   //    emailjs.sendForm('service_1ktc0vi','template_m9k8062' )
-   // }
+  emailjs.sendForm('service_c3834b8', 'template_k6yd07g', e.target, 'wkQF38LUlQxPmW0VQ')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
+  
           return (
-                    <div>
-                       <h1 className='text-2xl text-center font-semibold'>Contact with me </h1>       
-                       <div class="hero min-h-screen bg-base-200">
-  <div class="hero-content flex-col lg:flex-row-reverse">
-    <div class="text-center lg:text-left">
-      <h1 class="text-5xl font-bold">Hire Me!</h1>
-      <p class="py-6">Please fill this form and send me an email for hire me. </p>
-    </div>
- 
-    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-      <div class="card-body">
-        <div class="form-control">
-          <label class="label">
-            <span class="label-text">name</span>
-          </label>
-          <input type="text" name='name' placeholder="email" class="input input-bordered" />
-        </div>
-        <div class="form-control">
-          <label class="label">
-            <span class="label-text">Email</span>
-          </label>
-          <input type="text" name='user_email' placeholder="password" class="input input-bordered" />
-        </div>
-        <div class="form-control">
-          <label class="label">
-            <span class="label-text">Message</span>
-          </label>
-          <input type="text" name='message' placeholder="Description" class="input input-bordered" />
-        </div>
-        <div class="form-control mt-6">
-          <button class="btn btn-primary">Submit</button>
-        </div>
-      </div>
-    </div>
-
-  </div>
+            <div>
+            <div className="container m-10 mx-auto justify-center align-middle justify-items-center">
+<form onSubmit={sendEmail}>
+ <div className="row pt-5 mx-auto">
+     <div className="col-8 form-group mx-auto">
+     <label class="label">
+<span class="label-text">Name</span>
+</label>
+         <input  type="text" className="form-control border" placeholder="Name" name="name"/>
+     </div>
+     <div className="col-8 form-group pt-2 mx-auto">
+     <label class="label">
+<span class="label-text">Email</span>
+</label>
+         <input type="email" className="form-control border" placeholder="Email Address" name="email"/>
+     </div>
+     <div className="col-8 form-group pt-2 mx-auto">
+     <label class="label">
+<span class="label-text">Subject</span>
+</label>
+         <input type="text" className="form-control border" placeholder="Subject" name="subject"/>
+     </div>
+     <div className="col-8 form-group pt-2 mx-auto">
+     <label class="label">
+<span class="label-text">Message</span>
+</label>
+         <textarea className="form-control border" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+     </div>
+     <div className="col-8 pt-3 mx-auto">
+         <input type="submit" className="btn btn-primary" value="Send Message"></input>
+     </div>
+ </div>
+</form>
 </div>
-                    </div>
+
+
+   
+ </div>
           );
 };
 
