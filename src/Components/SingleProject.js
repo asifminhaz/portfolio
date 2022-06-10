@@ -8,7 +8,7 @@ const SingleProject = () => {
                     <div>
                               <h1 className='text-3xl text-center font-bold p-10'>My Projects</h1>
                            
-                              <div className='grid grid-flow-col auto-cols-max mx-10'>
+                              <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-12 lg:grid-cols-3  mx-10'>
    <div class="card w-96 m-5  bg-base-100 shadow-xl " data-aos="zoom-out"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -52,7 +52,7 @@ You can add any products easily from add product page..</p>
   </figure>
   <div class=" items-center text-center">
     <h2 class="card-title justify-center m-2">watch Store</h2>
-    <p className='p-3'>On this website, there was a home, reviews, and dashboard section
+    <p className='p-3 '>On this website, there was a home, reviews, and dashboard section
 On the home page, there were showing some customer reviews
 There was also a dashboard page you can see there business summary.</p>
     <div class="card-actions">

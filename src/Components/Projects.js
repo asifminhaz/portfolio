@@ -47,7 +47,7 @@ You can add any products easily from add product page..</p>
 </div>
 </div>
 <div class="flex flex-col w-full">
-  <div class="grid h-20 card bg-base-300 rounded-box place-items-center"></div> 
+  <div class="grid h-20 card bg-base-300 rounded-box place-items-center">contt</div> 
   <div class="divider"></div> 
 
 </div>
