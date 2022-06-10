@@ -25,6 +25,10 @@ There was a log-in or registration page, you can also register with a google acc
 </div>
 </div>
             </div>
+            <div class="flex flex-col w-full">
+  <div class="grid h-20 card bg-base-300 rounded-box place-items-center"></div> 
+  <div class="divider"></div> 
+</div>
             <div class="card w-50 bg-base-100 shadow-xl" data-aos="zoom-out"
 data-aos-easing="linear"
 data-aos-duration="1500" >
@@ -41,6 +45,11 @@ You can add any products easily from add product page..</p>
 <Link to='/moto'><button class="btn btn-success">Details </button></Link>
 </div>
 </div>
+</div>
+<div class="flex flex-col w-full">
+  <div class="grid h-20 card bg-base-300 rounded-box place-items-center"></div> 
+  <div class="divider"></div> 
+
 </div>
 <div class="card w-50 bg-base-100 shadow-xl" data-aos="zoom-out"
 data-aos-easing="linear"

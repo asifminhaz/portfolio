@@ -16,30 +16,31 @@ const Contact = () => {
   
           return (
             <div>
+               <h1 className='font-bold text-2xl p-4 text-slate-800'>Contact With Me</h1>
             <div className="container m-10 mx-auto justify-center align-middle justify-items-center">
 <form onSubmit={sendEmail}>
- <div className="row pt-5 mx-auto">
+ <div className="row pt-5 mx-auto justify-center">
      <div className="col-8 form-group mx-auto">
      <label class="label">
-<span class="label-text">Name</span>
+<span class="label-text font-bold">Name</span>
 </label>
          <input  type="text" className="form-control border" placeholder="Name" name="name"/>
      </div>
      <div className="col-8 form-group pt-2 mx-auto">
      <label class="label">
-<span class="label-text">Email</span>
+<span class="label-text font-bold">Email</span>
 </label>
          <input type="email" className="form-control border" placeholder="Email Address" name="email"/>
      </div>
      <div className="col-8 form-group pt-2 mx-auto">
      <label class="label">
-<span class="label-text">Subject</span>
+<span class="label-text font-bold">Subject</span>
 </label>
          <input type="text" className="form-control border" placeholder="Subject" name="subject"/>
      </div>
      <div className="col-8 form-group pt-2 mx-auto">
      <label class="label">
-<span class="label-text">Message</span>
+<span class="label-text font-bold">Message</span>
 </label>
          <textarea className="form-control border" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
      </div>
