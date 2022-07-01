@@ -1,5 +1,5 @@
 import React from 'react';
-import motodeal from "../asset/motodeal.png"
+import motopart from './../asset/motopart (3).png'
 import motodeal2 from "../asset/motodeal2.png"
 import motodeal4 from "../asset/motodeal4.png"
 
@@ -10,7 +10,7 @@ const Moto = () => {
      data-aos-easing="linear"
      data-aos-duration="1500" >
   <figure class="px-10 pt-10">
-    <img src={motodeal} alt="Shoes" class="rounded-xl" />
+    <img src={motopart} alt="Shoes" class="rounded-xl" />
   </figure>
 </div>
        <div class="card w-full bg-base-100 shadow-xl" data-aos="zoom-out"

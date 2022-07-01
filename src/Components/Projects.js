@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import gym from './../asset/gym.png'
 import motodeal from './../asset/motodeal.png'
 import watch from './../asset/watch.png'
+
 const Projects = () => {
           return (
             <div>
