@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import gym from './../asset/gym.png'
-import motodeal from './../asset/motodeal.png'
-import watch from './../asset/watch.png'
+import motopart from './../asset/motopart (3).png'
+import food from './../asset/food.png'
 
 const Projects = () => {
           return (
@@ -34,14 +34,11 @@ There was a log-in or registration page, you can also register with a google acc
 data-aos-easing="linear"
 data-aos-duration="1500" >
 <figure class="px-10 pt-10">
-<img src={motodeal} alt="Shoes" class="rounded-xl" />
+<img src={motopart} alt="Shoes" class="rounded-xl" />
 </figure>
 <div class="card-body items-center text-center">
-<h2 class="card-title">Warehouse Management</h2>
-<p>On this website, you can manage any products you want.
-You can deliver or restock products; also you can delete any products from your
-inventory page.
-You can add any products easily from add product page..</p>
+<h2 class="card-title">Motopart</h2>
+<p>This website  is about motoparts manufacturer.In my website there was a home page purchase, contact,footer, a simple dashboard, log in form registration form etc. you can easily purchase product from clicking on the purchase button . see your orders add a review also see your profile on my dashboard.</p>
 <div class="card-actions">
 <Link to='/moto'><button class="btn btn-success">Details </button></Link>
 </div>
@@ -56,15 +53,13 @@ You can add any products easily from add product page..</p>
 data-aos-easing="linear"
 data-aos-duration="1500">
 <figure class="px-10 pt-10">
-<img src={watch} alt="Shoes" class="rounded-xl" />
+<img src={food} alt="Shoes" class="rounded-xl" />
 </figure>
 <div class="card-body items-center text-center">
-<h2 class="card-title">watch Store</h2>
-<p>On this website, there was a home, reviews, and dashboard section
-On the home page, there were showing some customer reviews
-There was also a dashboard page you can see there business summary.</p>
+<h2 class="card-title">The veg tickle</h2>
+<p>This website is about a food delivery.You  can choose your favourite food from this website and ordered your food.Also This website show some latest customer reviews and a form to contact.Showing some special offers </p>
 <div class="card-actions">
-<Link to="/watch" ><button class="btn btn-success">Details </button></Link>
+<Link to="/theveg" ><button class="btn btn-success">Details </button></Link>
 </div>
 </div>
 </div>
