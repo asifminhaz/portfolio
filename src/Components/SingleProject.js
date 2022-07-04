@@ -9,7 +9,7 @@ import influencer from './../asset/influencer.png'
 import html from './../asset/html.png'
 const SingleProject = () => {
           return (
-                    <div>
+                    <div id='project'>
                               <h1 className='text-3xl text-center font-bold p-10'>My Projects</h1>
                            
                               <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-12 lg:grid-cols-3  mx-10'>

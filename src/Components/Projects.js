@@ -7,6 +7,7 @@ import food from './../asset/food.png'
 const Projects = () => {
           return (
             <div>
+            <div>
             <h1 className='text-3xl text-center font-bold p-10'>My Projects</h1>
             <div>
             <div class="card w-50 bg-base-100 shadow-xl" data-aos="zoom-out"
@@ -63,6 +64,7 @@ data-aos-duration="1500">
 </div>
 </div>
 </div>
+  </div>
   </div>
           );
 };

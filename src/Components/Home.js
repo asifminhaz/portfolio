@@ -11,7 +11,7 @@ const Home = () => {
                            <Header></Header>
                            <SingleProject></SingleProject>
                            {/* <MySkills></MySkills> */}
-                           <h1 className='text-center text-4xl font-bold m-12'>Contact Me</h1>
+                           <h1 className='text-center text-4xl font-bold mt-12'>Contact Me</h1>
                            <Contact></Contact>
                     </div>
           );
