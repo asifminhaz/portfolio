@@ -11,8 +11,8 @@ const SingleProject = () => {
                     <div id='project'>
                       <div className='text-center text-1xl text-center font-bold '>
                       <h1 className='p-10 text-3xl'>My Skills</h1>
-                                                  <ul className="steps ">
-  <li className="step step-info">HTML</li>
+                      <ul className="steps steps-vertical">
+                      <li className="step step-info">HTML</li>
   <li className="step step-info">CSS</li>
   <li className="step step-info">JAVASCRIPT</li>
   <li className="step step-info">REACT JS</li>
@@ -22,7 +22,10 @@ const SingleProject = () => {
   <li className="step step-info">NODE JS</li>
   <li className="step step-info">EXPRESS JS</li>
   
+
 </ul>
+
+
 
                       </div>
                               <h1 className='text-3xl text-center font-bold p-10'>My Projects</h1>
