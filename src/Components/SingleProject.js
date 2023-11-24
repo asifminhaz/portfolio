@@ -1,51 +1,84 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import gym from './../asset/gym.png'
-import motopart from './../asset/motopart (3).png'
-import watch from './../asset/watch.png'
-import convention from './../asset/convention.png'
 import food from './../asset/food.png'
-import influencer from './../asset/influencer.png'
 import html from './../asset/html.png'
+import eshopping1 from './../asset/eshopping1.png'
+import instrument1 from './../asset/instrument1.png'
+import starbucks from './../asset/starbucks.png'
+import Skill from './Skill';
 const SingleProject = () => {
           return (
                     <div id='project'>
+                      <div className='text-center text-1xl text-center font-bold '>
+                      <h1 className='p-10 text-3xl'>My Skills</h1>
+                                                  <ul className="steps ">
+  <li className="step step-info">HTML</li>
+  <li className="step step-info">CSS</li>
+  <li className="step step-info">JAVASCRIPT</li>
+  <li className="step step-info">REACT JS</li>
+  <li className="step step-info">BOOTSTRAP</li>
+  <li className="step step-info">TAILWIND</li>
+  <li className="step step-info">MONGODB</li>
+  <li className="step step-info">NODE JS</li>
+  <li className="step step-info">EXPRESS JS</li>
+  
+</ul>
+
+                      </div>
                               <h1 className='text-3xl text-center font-bold p-10'>My Projects</h1>
+                              
                            
-                              <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-12 lg:grid-cols-3  mx-10'>
+  <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-12 lg:grid-cols-3  mx-10'>
    <div class="card w-96 m-5  bg-base-100 shadow-xl " data-aos="zoom-out"
      data-aos-easing="linear"
      data-aos-duration="1500">
   <figure class="px-10 pt-10">
-    <img className='h-50 ' src={gym} alt="Shoes" class="rounded-xl h-80" />
+    <img className='h-50 ' src={instrument1} alt="Shoes" class="rounded-xl h-80" />
   </figure>
   <div class=" items-center">
-    <h2 class="card-title justify-center m-2">Gym With Asif</h2>
-    <p className='p-3'>On this website, there was a home, blog, login section
-On the home page, there was a service section show some services.
-There was a log-in or registration page, you can also register with a google account.</p>
+    <h2 class="card-title justify-center m-2">Instrument</h2>
+    <p className='p-3'>This is a buissness marketing website .</p>
     <div class="card-actions">
-      <Link className='mx-auto' to='/gym'><button class="btn btn-success">Details </button></Link>
+      <Link className='mx-auto' to='/instrument'><button class="btn btn-success">Details </button></Link>
+    </div>
+  </div>
+  
+</div>
+   <div class="card w-96 m-5  bg-base-100 shadow-xl " data-aos="zoom-out"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+  <figure class="px-10 pt-10">
+    <img className='h-50 ' src={eshopping1} alt="Shoes" class="rounded-xl h-80" />
+  </figure>
+  <div class=" items-center">
+    <h2 class="card-title justify-center m-2">Eshopping</h2>
+    <p className='p-3'>On this website, there was a home, men, women, kid login section.You can buy products from here</p>
+    <div class="card-actions">
+      <Link className='mx-auto' to='/eshopping'><button class="btn btn-success">Details </button></Link>
+    </div>
+  </div>
+  
+</div>
+   <div class="card w-96 m-5  bg-base-100 shadow-xl " data-aos="zoom-out"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+  <figure class="px-10 pt-10">
+    <img className='h-50 ' src={starbucks} alt="Shoes" class="rounded-xl h-80" />
+  </figure>
+  <div class=" items-center">
+    <h2 class="card-title justify-center m-2">Starbucks</h2>
+    <p className='p-3'></p>
+    <div class="card-actions">
+      <Link className='mx-auto' to='/starbucks'><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
   
 </div>
                               
-   <div class="card w-96 m-5  bg-base-100 shadow-xl" data-aos="zoom-out"
-     data-aos-easing="linear"
-     data-aos-duration="1500" >
-  <figure class="px-10 pt-10">
-    <img className='h-50' src={motopart} alt="Shoes" class="rounded-xl h-80" />
-  </figure>
-  <div class=" items-center text-center">
-    <h2 class="card-title justify-center m-2">Moto parts</h2>
-    <p className='p-3'> This website  is about motoparts manufacturer.In my website there was a home page purchase, contact,footer, a simple dashboard, log in form registration form etc. you can easily purchase product from clicking on the purchase button . see your orders add a review also see your profile on my dashboard
-You can add any products easily from add product page..</p>
-    <div class="card-actions">
-      <Link className='mx-auto' to='/moto'><button class="btn btn-success">Details </button></Link>
-    </div>
-  </div>
-</div>
+  
+
+
+
 <div class="card w-96 m-5 max-h-full bg-base-100 shadow-xl" data-aos="zoom-out"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -74,7 +107,7 @@ You can add any products easily from add product page..</p>
     </div>
   </div>
 </div>
-<div class="card w-96 m-5 max-h-full bg-base-100 shadow-xl" data-aos="zoom-out"
+{/* <div class="card w-96 m-5 max-h-full bg-base-100 shadow-xl" data-aos="zoom-out"
      data-aos-easing="linear"
      data-aos-duration="1500">
   <figure class="px-10 pt-10">
@@ -87,8 +120,8 @@ You can add any products easily from add product page..</p>
       <Link className='mx-auto' to="/influencer" ><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
-</div>
-<div class="card w-96 m-5 max-h-full bg-base-100 shadow-xl" data-aos="zoom-out"
+</div> */}
+{/* <div class="card w-96 m-5 max-h-full bg-base-100 shadow-xl" data-aos="zoom-out"
      data-aos-easing="linear"
      data-aos-duration="1500">
   <figure class="px-10 pt-10">
@@ -101,7 +134,7 @@ You can add any products easily from add product page..</p>
       <Link className='mx-auto' to="/convention" ><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
-</div>
+</div> */}
 </div>
                     </div>
           );

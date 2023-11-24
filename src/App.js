@@ -16,6 +16,9 @@ import Theveg from "./Components/Theveg";
 import Personal from "./Components/Personal";
 import Influencer from "./Components/Influencer";
 import Convention from "./Components/Convention";
+import Eshopping from "./Components/Eshopping";
+import Instrument from "./Components/Instrument";
+import Starbucks from "./Components/Starbucks";
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
   <Route path="/personal" element={<Personal></Personal>}></Route>
   <Route path="/influencer" element={<Influencer></Influencer>}></Route>
   <Route path="/convention" element={<Convention></Convention>}></Route>
+  <Route path="/eshopping" element={<Eshopping></Eshopping>}></Route>
+  <Route path="/instrument" element={<Instrument></Instrument>}></Route>
+  <Route path="/starbucks" element={<Starbucks></Starbucks>}></Route>
     {/* <Route path="/watch" element={<Watch></Watch>}></Route> */}
     <Route path="*" element={<NotFound></NotFound>}></Route>
 
