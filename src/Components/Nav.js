@@ -6,7 +6,7 @@ const Nav = () => {
         <li><a href="/#project">Projects</a></li>
         <li><a  href="/#contact">Contact</a></li>
         <li><Link to="/about">About</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
+       
           </>
           return (
                     <div class="navbar bg-base-100">

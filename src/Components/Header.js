@@ -15,7 +15,7 @@ const Header = () => {
       <h1 class="text-5xl font-bold text-white">Hello</h1>
       <h1 class="text-5xl font-bold text-white">I'm Minhazur</h1>
       <h1 class="text-5xl font-bold text-white">Rahman</h1>
-      <p class="py-6 text-white">I am a Junior web Developer. I built things for the web</p>
+      <p class="py-6 text-white">I am a Junior web Developer. I build things for the web.</p>
       <a href='https://docs.google.com/document/d/1TeXAtkplNASpH2kIrQbB4uz_dnE_OU_0DQ9l3HC5FMQ/edit?usp=sharing'><button class="btn btn-white text-white">Download Resume</button></a>
       <Link className='m-7 sm:mt-3 md:mt-3' to='/contact'><button class="btn btn-white text-white">contact me</button></Link>
     </div>

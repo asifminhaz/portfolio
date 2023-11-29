@@ -31,7 +31,7 @@ const SingleProject = () => {
                               <h1 className='text-3xl text-center font-bold p-10'>My Projects</h1>
                               
                            
-  <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-12 lg:grid-cols-3  mx-10'>
+  <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-12 lg:grid-cols-3  mx-10 '>
    <div class="card w-96 m-5  bg-base-100 shadow-xl " data-aos="zoom-out"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -40,8 +40,8 @@ const SingleProject = () => {
   </figure>
   <div class=" items-center">
     <h2 class="card-title justify-center m-2">Instrument</h2>
-    <p className='p-3'>This is a buissness marketing website .</p>
-    <div class="card-actions">
+    <p className='p-3 text-center'>This is a buissness marketing website .</p>
+    <div class="card-actions mt-8">
       <Link className='mx-auto' to='/instrument'><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
@@ -56,7 +56,7 @@ const SingleProject = () => {
   <div class=" items-center">
     <h2 class="card-title justify-center m-2">Eshopping</h2>
     <p className='p-3'>On this website, there was a home, men, women, kid login section.You can buy products from here</p>
-    <div class="card-actions">
+    <div class="card-actions mb-8 m-3">
       <Link className='mx-auto' to='/eshopping'><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
@@ -70,8 +70,8 @@ const SingleProject = () => {
   </figure>
   <div class=" items-center">
     <h2 class="card-title justify-center m-2">Starbucks</h2>
-    <p className='p-3'></p>
-    <div class="card-actions">
+    <p className='p-3 text-center'>This is coffee website where you can order your favourite coffee.</p>
+    <div class="card-actions mt-3">
       <Link className='mx-auto' to='/starbucks'><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
@@ -90,8 +90,8 @@ const SingleProject = () => {
   </figure>
   <div class=" items-center text-center">
     <h2 class="card-title justify-center m-2">The veg tickle</h2>
-    <p className='p-3 '>This website is about a food delivery.You  can choose your favourite food from this website and ordered your food.Also This website show some latest customer reviews and a form to contact.Showing some special offers ..</p>
-    <div class="card-actions">
+    <p className='p-3 '>This website is about a food delivery.You  can choose your favourite food from this website.</p>
+    <div class="card-actions mb-8 mt-8">
       <Link className='mx-auto' to="/theveg" ><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
@@ -104,8 +104,8 @@ const SingleProject = () => {
   </figure>
   <div class=" items-center text-center">
     <h2 class="card-title justify-center m-2">Personal website</h2>
-    <p className='p-3 '> This website is very simple . create with pure html and css .It is all about my career mission.It was full responsive website with only using html  and css</p>
-    <div class="card-actions">
+    <p className='p-3 '> This website create with pure html and css .It is all about my career mission.It was full responsive website with only using html and css.</p>
+    <div class="card-actions mt-3 mb-8">
       <Link className='mx-auto' to="/personal" ><button class="btn btn-success">Details </button></Link>
     </div>
   </div>
